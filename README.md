@@ -1,4 +1,4 @@
-# Exercices Girard Daniel
+# Exercices GIRARD Daniel
 Ce répertoire est dédié aux exercices vu et à faire en classe avec M.Girard
 
 Veuillez trouver les différents exercices dans une branche dédiée :
