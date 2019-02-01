@@ -1,6 +1,7 @@
 .darkGreen{
     background-color: #2E7F57;
     padding: 150px;
+    border: 0.5px solid black;
 }
 .cyan{
     background-color: #0FFF89;
@@ -11,4 +12,6 @@
     background-color: #5BFFAF;
     padding: 62.5px;
     border: 0.5px solid black;
+    top: 60%;
+    position: absolute;
 }
