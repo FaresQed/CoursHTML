@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'Folks';
+    src: url('./fonts/Folks-Light.ttf');
+}
+
+p{
+    font-family: 'Folks';
+}
+
+h2, h3{
+    font-family: 'Fredericka the Great';
+}
