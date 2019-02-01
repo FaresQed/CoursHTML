@@ -1,0 +1,107 @@
+@font-face{
+    font-family: 'Folks-Light';
+    src: url('./fonts/Folks-Light.ttf');
+}
+@font-face{
+    font-family: 'Folks-Bold';
+    src: url('./fonts/Folks-Bold.ttf');
+}
+@font-face{
+    font-family: 'Folks-Normal';
+    src: url('./fonts/Folks-Normal.ttf');
+}
+
+/* HEADER */
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+
+/* BODY */
+
+* {
+    color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: 'Folks-Light';
+}
+
+/* TITLES */
+
+h2, h3{
+    font-family: 'Folks-Normal';
+}
+h3{
+    color: #1ed387
+}
+
+#job-title{
+    font-family: 'Folks-Bold';
+    color: #1ed387;
+}
+#name{
+    font-family: 'Folks-Bold';
+}
+
+
+/* DETAILS */
+.date{
+    font-family: 'Folks-Light';
+    font-style: italic;
+}
+
+dl{
+    margin-bottom: 30px;
+}
+    
+dt, dd {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+body{
+    background: rgb(37, 37, 37);
+}
+    
+
+/* FORM */
+  
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input {
+    background: #1f1f1f;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type = 'submit']{
+    background: rgb(148, 148, 148);
+    margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #1ed387;
+}
+
+.container {
+    background-color: #000000;
+    padding: 20px;
+}
