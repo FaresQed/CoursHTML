@@ -2,7 +2,6 @@
     background-color: rgb(0, 0, 0);
     height: 880px;
     width : 880px;
-    z-index: ;
 }
 
 .darkGreen{
@@ -54,5 +53,4 @@
     margin-top : 478.5px;
     float: left;
     position: absolute;
-
 }
