@@ -7,3 +7,4 @@ Veuillez trouver les différents exercices dans une branche dédiée :
 - Exercice 2 (Curriculum Vitae) : https://github.com/FaresQed/Cours_G.Daniel/tree/Exercice2
 - Exercice 3 (position) : https://github.com/FaresQed/Cours_G.Daniel/tree/Exercice3
 - Exercice 4 (flex) : https://github.com/FaresQed/Cours_G.Daniel/tree/Exercice4
+- Exercice 5 (Grid ex: Mondrian) : https://github.com/FaresQed/Cours_G.Daniel/tree/Exercice5
