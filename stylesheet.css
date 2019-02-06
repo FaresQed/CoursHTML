@@ -1,5 +1,161 @@
-.square{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(0, 0, 0);
+/* Menu Déroulant */
+.dropdownmenu {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
 }
+.dropdownmenu:hover {
+  height: 500px;
+  transition: 2s;
+}
+
+/* Carrée qui tourne*/
+.square{
+  background-color: yellow;
+  width:100px;
+  height:100px;
+  margin:20px auto;
+  animation: turn 3s infinite;
+}
+
+/* Balle qui rebondit*/
+.ball{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #FF5722;
+  animation: bouncing 0.5s infinite;
+  animation-direction: alternate;
+}
+
+.ball-container{
+  width: 54px;
+  height: 150px;
+  background : white;
+  border : 2px solid green;
+}
+
+
+/* Loader */
+.loader1, .loader2, .loader3{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+}
+.loader1{
+  animation : loading1;
+  animation-duration: 0.5s;
+  animation-iteration-count : infinite;
+}
+.loader2{
+  animation : loading2;
+  animation-duration: 0.7s;
+  animation-iteration-count : infinite;
+}
+.loader3{
+  animation : loading3;
+  animation-duration: 0.9s;
+  animation-iteration-count : infinite;
+}
+
+
+
+/* Animations */
+
+@keyframes turn{
+  10% {transform: rotate(360deg)};
+  100% {transform: rotate(360deg)};
+  from {background-color: yellow;}
+  to {background-color: green;}
+  
+}
+@keyframes bouncing {
+  from { transform: translate3d(0, 100px, 0);}
+  to   { transform: translate3d(0, 0, 0); }
+  
+}
+@keyframes loading1{
+  from {background-color: white;}
+  to {background-color: rgb(0, 0, 0);}
+}
+@keyframes loading2{
+  from {background-color: white;}
+  to {background-color: rgb(0, 0, 0);}
+}
+@keyframes loading3{
+  from {background-color: white;}
+  to {background-color: rgb(0, 0, 0);}
+}
+
+
+/* colonnes */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.container{
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+/* ligne */
+
+.row{
+  margin: 30px 0;
+}
+
+/* Cases */
+.case{
+  background-color: #eee;
+  padding: 50px 0;
+}
+
+/* toutes les anim */
+
+.loader{
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Loader */
+
+.loadercss span{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #000000;
+}
+
+.loadercss span:nth-child(1){
+  animation: loading 3s infinite;
+}
+
+.loadercss span:nth-child(2){
+  animation: loading 3s  0.3s infinite;
+}
+
+.loadercss span:nth-child(3){
+  animation: loading 3s 0.6s infinite;
+}
+
+@keyframes loading{
+  0%, 100%{
+    opacity: 0;
+  }
+
+  60%{
+    opacity: 1;
+  }
+}
+
+
