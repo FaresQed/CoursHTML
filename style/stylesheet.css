@@ -1,0 +1,42 @@
+.div1 {
+  grid-area: header;
+}
+.div1b {
+  grid-area: aside;
+}
+.div2{
+  grid-area: aside;
+}
+.div3 {
+  grid-area: aside;
+}
+.div4 {
+  grid-area: aside;
+}
+.div5 {
+  grid-area: aside;
+}
+.div6 {
+  grid-area: aside;
+}
+.div7 {
+  grid-area: aside;
+}
+.div8 {
+  grid-area: foot;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "head""aside"
+  "aside"
+  "aside"
+  "aside"
+  "aside"
+  "aside"
+  "aside"
+  "foot"
+}
