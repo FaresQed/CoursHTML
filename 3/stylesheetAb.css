@@ -11,19 +11,7 @@
     width : 15px;
     height : 15px;
     float:left;
-    position: relative;
-    margin-left : 60px;
-    margin-top : 60px;
-}
-
-.cyan{
-    background-color: #0FFF89;
-    padding: 156.5px;
-    border: 0.5px solid rgb(2, 2, 2);
-    width : 15px;
-    height : 15px;
-    float:left;
-    position: relative;
+    position: absolute;
     margin-left : 60px;
     margin-top : 60px;
 }
@@ -34,12 +22,24 @@
     border: 0.5px solid rgb(0, 0, 0);
     width : 15px;
     height : 15px;
-    float:left;
-    position: relative;
-    margin-left : 60px;
-    margin-top : 60px;
+    margin-left : 240px;
+    margin-top : -157px;
 
 }
+
+
+.cyan{
+    background-color: #0FFF89;
+    padding: 156.5px;
+    border: 0.5px solid rgb(0, 0, 0);
+    width : 15px;
+    height : 15px;
+    float:left;
+    position: absolute;
+    margin-left : 60px;
+    margin-top : 460px;
+}
+
 
 .lighterThanLight{
     background-color: rgb(255, 255, 255);
@@ -47,8 +47,6 @@
     border: 0.5px solid rgb(0, 0, 0);
     width : 15px;
     height : 15px;
-    float:left;
-    position: relative;
-    margin-left : 60px;
-    margin-top : 60px;
+    margin-left : 240px;
+    margin-top : -157px;
 }
