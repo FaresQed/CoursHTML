@@ -1,42 +1,60 @@
-.div1 {
-  grid-area: header;
-}
-.div1b {
-  grid-area: aside;
-}
-.div2{
-  grid-area: aside;
-}
-.div3 {
-  grid-area: aside;
-}
-.div4 {
-  grid-area: aside;
-}
-.div5 {
-  grid-area: aside;
-}
-.div6 {
-  grid-area: aside;
-}
-.div7 {
-  grid-area: aside;
-}
-.div8 {
-  grid-area: foot;
+@media (max-device-width: 1279px){
+  /*mobile css*/
+
+  .container {
+    display: grid;
+    grid-template-areas: 
+    "head sidebar"
+    "main1 main1"
+    "main2 main2"
+    "main3 main3"
+    "main4 main4"
+    "main5 main5"
+    "main6  main6"
+    "main7 main7"
+    "foot foot";
+  }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  "head""aside"
-  "aside"
-  "aside"
-  "aside"
-  "aside"
-  "aside"
-  "aside"
-  "foot"
+@media (min-device-width : 1024px){
+   /*Desktop css*/
+   .container {
+    display: grid;
+    grid-template-areas: 
+    "head sidebar sidebar sidebar sidebar sidebar sidebar"
+    "main1 main2 main3 main4 main5 main6 foot";
+  }
 }
+
+  .div1 {
+    grid-area: head;
+  }
+  .div1b {
+    grid-area: sidebar;
+  }
+  .div2{
+    grid-area: main1;
+  }
+  .div3 {
+    grid-area: main2;
+  }
+  .div4 {
+    grid-area: main3;
+  }
+  .div5 {
+    grid-area: main4;
+  }
+  .div6 {
+    grid-area: main5;
+  }
+  .div7 {
+    grid-area: main6;
+  }
+  .div8 {
+    grid-area: foot;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+}
+
