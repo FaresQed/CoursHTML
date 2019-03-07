@@ -9,7 +9,7 @@
    </head>
    <body>
       <div id="page-wrap">
-         <img src="../profil.png" alt="profile pic" id="pic" />
+         <img src="img/profil.png" alt="profile pic" id="pic" />
          <div id="contact-info" class="vcard">
             <h1 class="fn">QEDIRA Fares</h1>
             <p>
@@ -23,10 +23,19 @@
             </p>
          </div>
          <div class="clear"></div>
+         <div>
+            <nav>
+               <ul>
+                  <li><a href="#df" >Diplomes et formations</a></li>
+                  <li><a href="#ep">Expériences Professionnelles</a></li>
+                  <li><a href="#contact">Me contacter</a></li>
+               </ul>
+            </nav>
+         </div>
          <dl>
             <dt>Diplomes et Formations</dt>
             <dd>
-               <section>
+               <section id="df">
                <h2>Formation "Développeur Web et web mobile"</h2>
                <h3>dec. 2018 - sept. 2019</h3>
                <p>Institut Francais des Affaires (IFA) - METZ</p>
@@ -49,7 +58,7 @@
             <dd class="clear"></dd>
             <dt>Expériences Professionnelles</dt>
             <dd>
-               <section>
+               <section id="ep">
                   <ul>
                      <li><strong>Retouches numériques</strong></li>
                      <li>Retouches photos et montage pour une société basée au Émirats Arabes Unis.</li>
@@ -62,8 +71,8 @@
          </dl>
          <div class="clear"></div>
       </div>
-      <div class="form">
-         <form action="/action_page.php">
+      <div class="form" id="contact">
+         <form action="">
             <label for="fname">Votre Nom</label>
             <input type="text" id="fname" name="firstname" placeholder="ex: DUPONT Pierre">
             <label for="lname">Nom de l'entreprise</label>
