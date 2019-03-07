@@ -8,74 +8,75 @@
       <meta charset="UTF-8">
    </head>
    <body>
-      <div class="sticky">
-         <h2 id="name">Fares Qedira</h2>
-         <h2 id="job-title">Développeur Web</h2>
+      <div id="page-wrap">
+         <img src="img/profil.png" alt="profile pic" id="pic" />
+         <div id="contact-info" class="vcard">
+            <h1 class="fn">QEDIRA Fares</h1>
+            <p>
+               Téléphone : <span class="tel">+33 6 12 12 12 12</span><br />
+               Email: <a class="email" href="mailto:fqedira2@gmail.com">fqedira2@gmail.com</a>
+            </p>
+         </div>
+         <div id="objective">
+            <p>
+               Dynamique et rigoureux, un peu comme tout le monde
+            </p>
+         </div>
+         <div class="clear"></div>
+         <dl>
+            <dt>Diplomes et Formations</dt>
+            <dd>
+               <section>
+               <h2>Formation "Développeur Web et web mobile"</h2>
+               <h3>dec. 2018 - sept. 2019</h3>
+               <p>Institut Francais des Affaires (IFA) - METZ</p>
+               <p>Formation "Développeur Web et Web Mobile" (RNCP Niv.III )</p>
+               <br>
+               <h2>Remise à niveau des métiers du numérique</h2>
+               <h3>sept. 2018 - dec. 2018</h3>
+               <p>Institut Francais des Affaires (IFA) - METZ</p>
+               <p>Formation de mise à niveau pour préparer à la formation
+                  de Développeur Web et Web Mobile (RNCP Niv.III )
+               <p>
+                  <br>
+               <h2>Bachelor informatique</h2>
+               <h3>2017-2018</h3>
+               <p>Université du Luxembourg - LUXEMBOURG</p>
+               <p>1ere année de bachelor informatique à Luxembourg
+               <p>
+               <section>
+            </dd>
+            <dd class="clear"></dd>
+            <dt>Expériences Professionnelles</dt>
+            <dd>
+               <section>
+                  <ul>
+                     <li><strong>Retouches numériques</strong></li>
+                     <li>Retouches photos et montage pour une société basée au Émirats Arabes Unis.</li>
+                     <li><strong>Serveur dans un Fast-Food</strong></li>
+                     <li>Activité Polyvalente au sein d'un petit restaurant lors de week-end et vacances</li>
+                  </ul>
+                  <h2>Interréssé(e) par mon profil ?</h2>
+               </section>
+            </dd>
+         </dl>
+         <div class="clear"></div>
       </div>
-      <ul>
-         <li>Mail: <a href="mailto:fqedira2@gmail.com" target="_blank">fqedira2@gmail.com</a></li>
-         <li>Tel. : 01234567890</li>
-         <li>Permis B</li>
-         <li>Véhicule Personnel</li>
-      </ul>
-      <section>
-         <h2>Diplomes et Formations</h2>
-         <article>
-            <h3>Formation "Développeur Web"</h3>
-               <dl class="dl-horizontal timeline">
-                  <dt class="date">dec. 2018 - sept. 2019</dt>
-                  <dd>Formation Développeur Web et Web Mobile" (RNCP Niv.III )</dd>
-               </dl>
-         </article>
-         <article>
-            <h3>Remise à niveau du numérique</h3>
-               <dl class="dl-horizontal timeline">
-                  <dt class="date">sept. 2018 - dec. 2018</dt>
-                  <dd>Formation de mise à niveau pour préparer à la formation
-                        de Développeur Web et Web Mobile (RNCP Niv.III )<dd>
-               </dl>
-         </article>
-         <article>
-            <h3>Bachelor informatique</h3>
-               <dl class="dl-horizontal timeline">
-                  <dt class="date">2017-2018</dt>
-                  <dd>Université du Luxembourg - LUXEMBOURG</dd>
-                  <dd>1ere année de bachelor informatique à Luxembourg<dd>
-               </dl>
-         </article>
-         <article>
-            <h3>Baccalauréat STI2D</h3>
-            <dl class="dl-horizontal timeline">
-               <dt class="date">2017</dt>
-               <dd>Lycée LOUIS VINCENT- METZ</dd>
-            </dl>
-         </article>
-      </section>
-      <section>
-         <h2>Expériences Professionnelles</h2>
-         <ul>
-            <li><strong>Retouches numériques</strong></li>
-            <li>Retouches photos et montage pour une société basée au Émirats Arabes Unis.</li>
-            <li><strong>Serveur dans un Fast-Food</strong></li>
-            <li>Activité Polyvalente au sein d'un petit restaurant lors de week-end et vacances</li>
-         </ul>
-      </section>
-      <h2>Si vous êtes intéressé(e), veuillez me contacter avec ce formulaire :</h2>
-      <form>
-            <label for="form-contact-name">Nom</label>
-            <input type="text" id="form-contact-name" name="nom"><br>
-    
-            <label for="form-contact-firstname">Prenom</label>
-            <input type="text" id="form-contact-firstname" name="prenom"><br>
-    
-            <label for="form-contact-mail">Adresse mail</label>
-            <input type="email" id="form-contact-mail" name="mail"><br>
-    
-            <label for="form-contact-phone">Numéro de tel.</label>
-            <input type="tel" id="form-contact-phone" name="phone"><br>
-
-            <label for="form-contact-submit"></label>
-            <input type="submit" id="form-contact-submit" name="submit" value="Envoyer"><br>
-      </form>
+      <div class="form">
+         <form action="/action_page.php">
+            <label for="fname">Votre Nom</label>
+            <input type="text" id="fname" name="firstname" placeholder="ex: DUPONT Pierre">
+            <label for="lname">Nom de l'entreprise</label>
+            <input type="text" id="lname" name="lastname" placeholder="ex: Google, Apple">
+            <label for="country">Type d'entreprise</label>
+            <select id="country" name="country">
+               <option value="tech">Technologie / Web</option>
+               <option value="resto">Restauration / Hotelerie</option>
+               <option value="usa">Association</option>
+               <option value="usa">Autre ...</option>
+            </select>
+            <input type="submit" value="Submit">
+         </form>
+      </div>
    </body>
 </html>
