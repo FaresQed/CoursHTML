@@ -11,7 +11,6 @@
     src: url('./fonts/Folks-Normal.ttf');
 }
 
-/* HEADER */
 * {
     font-family: 'Folks-Normal';
     margin: 0;
@@ -20,7 +19,7 @@
 body {
     font: 16px Helvetica, Sans-Serif;
     line-height: 24px;
-    background : linear-gradient(to bottom, rgba(255,255,255,1) 17%,rgb(219, 219, 219) 83%); ;
+    background : linear-gradient(to bottom, rgba(255,255,255,1) 17%,rgb(219, 219, 219) 83%);
 }
 .clear {
     clear: both;
@@ -124,4 +123,14 @@ input[type=text], select {
     border-radius: 5px;
     background-color: linear-gradient(to bottom, rgba(193,193,193,1) 0%,rgba(255,255,255,1) 36%);
     padding: 20px;
+  }
+  
+  nav li{
+    list-style: none;
+    display:inline;
+    margin: 15px;
+  }
+
+  nav li a{
+    color: rgb(9, 160, 110);
   }
