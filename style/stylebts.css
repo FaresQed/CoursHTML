@@ -1,0 +1,81 @@
+body
+{
+	font-size: 18px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width:850px)
+{
+	.conteneur
+	{
+		display: block;
+		margin: auto;
+		box-sizing: border-box;
+		width: 90%;
+	}
+	.md
+	{
+		width: calc(100%/1);
+	}
+
+}
+
+@media  screen and (max-width:650px)
+{
+	.sm1
+	{
+		width: calc(100%/1);
+	}
+
+	ul li
+	{
+		visibility: hidden;
+	}
+	.conteneur
+	{
+		width: 100%;
+	}
+}
+
+.lg3
+{
+	width: calc(100%/3);
+}
+
+h1
+{
+	text-align: center;
+}
+section
+{
+	text-align: justify;
+}
+
+p
+{
+	padding: 15px;
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+
+ul li
+{
+	display: inline-block;
+}
+
+.conteneur
+{
+	display: inline-flex;
+}
+
+li
+{
+    border: 1px solid ;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 35px;
+}
+
